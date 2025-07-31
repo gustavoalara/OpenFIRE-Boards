@@ -98,6 +98,11 @@ public:
         analogY,
         tempPin,
         // Add non-button inputs here
+        // SevSeg uhmxe-595-2 Counter inputs
+        counterSdiPin,
+        counterSclkPin,
+        counterLoadPin,
+        // ---------------------------------
         boardInputsCount
     } boardInputs_e;
 
@@ -136,6 +141,10 @@ public:
         {"Analog Stick X",      analogX         },
         {"Analog Stick Y",      analogY         },
         {"Temperature Sensor",  tempPin         },
+        // Counter Pins
+        {"Counter SDI",         counterSdiPin},
+        {"Counter SCLK",        counterSclkPin},
+        {"Counter Load",        counterLoadPin},
     };
 
     // For Apps to use for lists of pin functions
@@ -164,6 +173,7 @@ public:
         i2cOLED,
         i2cOLEDaltAddr,
         // Add here
+        counterEnable,
         boolTypesCount
     } boolTypes_e;
 
@@ -180,6 +190,7 @@ public:
         {"InvertStaticPixels",  invertStaticPixels  },
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
+        {"CounterEnabled",      counterEnable       },
     };
 
     // Variable settings indices
@@ -199,6 +210,7 @@ public:
         tempShutdown,
         analogMode,
         // Add here
+        counterType,
         settingsTypesCount
     } settingsTypes_e;
 
@@ -217,6 +229,7 @@ public:
         {"TempWarning",         tempWarning         },
         {"TempDanger",          tempShutdown        },
         {"AnalogMode",          analogMode          },
+        {"CounterMode",        counterType},
     };
 
     enum {
