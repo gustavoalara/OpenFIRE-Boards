@@ -103,6 +103,8 @@ public:
         counterSclkPin,
         counterLoadPin,
         // ---------------------------------
+        // Neopixel Bar Mode
+        neoPixelBarMode,
         boardInputsCount
     } boardInputs_e;
 
@@ -191,6 +193,7 @@ public:
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
         {"CounterEnabled",      counterEnable       },
+        {"NeoPixelBarMode",     neoPixelBarMode     },
     };
 
     // Variable settings indices
