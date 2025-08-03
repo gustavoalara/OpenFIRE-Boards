@@ -103,13 +103,6 @@ public:
         counterSclkPin,
         counterLoadPin,
         
-        // Neopixel Bar Mode
-        neoPixelBarMode,
-        neoPixelLifeFull,
-        neoPixelLifeEmpty,
-        neoPixelAmmoFull,
-        neoPixelAmmoEmpty,
-        
         boardInputsCount
     } boardInputs_e;
 
@@ -181,6 +174,7 @@ public:
         i2cOLEDaltAddr,
         // Add here
         counterEnable,
+
         boolTypesCount
     } boolTypes_e;
 
@@ -198,11 +192,6 @@ public:
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
         {"CounterEnabled",      counterEnable       },
-        {"NeoPixelBarMode",     neoPixelBarMode     },
-        {"NeoPixelLifeFull",    neoPixelLifeFull    },
-        {"NeoPixelLifeEmpty",   neoPixelLifeEmpty   },
-        {"NeoPixelAmmoFull",    neoPixelAmmoFull    },
-        {"NeoPixelAmmoEmpty",   neoPixelAmmoEmpty   },
     };
 
     // Variable settings indices
@@ -223,6 +212,12 @@ public:
         analogMode,
         // Add here
         counterType,
+        neoPixelBarMode,
+        neoPixelLifeFull,
+        neoPixelLifeEmpty,
+        neoPixelAmmoFull,
+        neoPixelAmmoEmpty,
+
         settingsTypesCount
     } settingsTypes_e;
 
@@ -241,7 +236,12 @@ public:
         {"TempWarning",         tempWarning         },
         {"TempDanger",          tempShutdown        },
         {"AnalogMode",          analogMode          },
-        {"CounterMode",        counterType},
+        {"CounterMode",        counterType          },
+        {"NeoPixelBarMode",     neoPixelBarMode     },
+        {"NeoPixelLifeFull",    neoPixelLifeFull    },
+        {"NeoPixelLifeEmpty",   neoPixelLifeEmpty   },
+        {"NeoPixelAmmoFull",    neoPixelAmmoFull    },
+        {"NeoPixelAmmoEmpty",   neoPixelAmmoEmpty   },
     };
 
     enum {
