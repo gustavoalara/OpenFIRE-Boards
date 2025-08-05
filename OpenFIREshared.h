@@ -217,6 +217,12 @@ public:
         neoPixelLifeEmpty,
         neoPixelAmmoFull,
         neoPixelAmmoEmpty,
+        healthBarStartLed,
+        healthBarLedCount,
+        ammoBarStartLed,
+        ammoBarLedCount,
+        effectsStartLed,
+        effectsLedCount,
 
         settingsTypesCount
     } settingsTypes_e;
@@ -242,6 +248,12 @@ public:
         {"NeoPixelLifeEmpty",   neoPixelLifeEmpty   },
         {"NeoPixelAmmoFull",    neoPixelAmmoFull    },
         {"NeoPixelAmmoEmpty",   neoPixelAmmoEmpty   },
+        {"HealthBarStartLed",   healthBarStartLed   },
+        {"HealthBarLedCount",   healthBarLedCount   },
+        {"AmmoBarStartLed",     ammoBarStartLed     },
+        {"AmmoBarLedCount",     ammoBarLedCount     },
+        {"EffectsStartLed",     effectsStartLed     },
+        {"EffectsLedCount",     effectsLedCount     },
     };
 
     enum {
