@@ -222,6 +222,7 @@ public:
         ammoBarLedCount,
         effectsStartLed,
         effectsLedCount,
+        counterStartupMessage,
 
         settingsTypesCount
     } settingsTypes_e;
@@ -252,6 +253,7 @@ public:
         {"AmmoBarLedCount",     ammoBarLedCount     },
         {"EffectsStartLed",     effectsStartLed     },
         {"EffectsLedCount",     effectsLedCount     },
+        {"CounterStartupMessage", counterStartupMessage},
     };
 
     enum {
