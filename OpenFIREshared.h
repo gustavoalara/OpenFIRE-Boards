@@ -212,7 +212,6 @@ public:
         analogMode,
         // Add here
         counterType,
-        neoPixelBarMode,
         neoPixelLifeFull,
         neoPixelLifeEmpty,
         neoPixelAmmoFull,
@@ -243,7 +242,6 @@ public:
         {"TempDanger",          tempShutdown        },
         {"AnalogMode",          analogMode          },
         {"CounterMode",        counterType          },
-        {"NeoPixelBarMode",     neoPixelBarMode     },
         {"NeoPixelLifeFull",    neoPixelLifeFull    },
         {"NeoPixelLifeEmpty",   neoPixelLifeEmpty   },
         {"NeoPixelAmmoFull",    neoPixelAmmoFull    },
