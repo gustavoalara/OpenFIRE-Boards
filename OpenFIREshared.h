@@ -224,6 +224,60 @@ public:
         effectsLedCount,
         counterStartupMessage,
 
+        // Trigger
+        trigger_OnScreen_neoPixelEffect,
+        trigger_OnScreen_neoPixelEffectColor,
+        trigger_OffScreen_neoPixelEffect,
+        trigger_OffScreen_neoPixelEffectColor,
+        
+        // Pump
+        pump_OnScreen_neoPixelEffect,
+        pump_OnScreen_neoPixelEffectColor,
+        pump_OffScreen_neoPixelEffect,
+        pump_OffScreen_neoPixelEffectColor,
+
+        // Pedal
+        pedal_OnScreen_neoPixelEffect,
+        pedal_OnScreen_neoPixelEffectColor,
+        pedal_OffScreen_neoPixelEffect,
+        pedal_OffScreen_neoPixelEffectColor,
+
+        // AltPedal
+        altpedal_OnScreen_neoPixelEffect,
+        altpedal_OnScreen_neoPixelEffectColor,
+        altpedal_OffScreen_neoPixelEffect,
+        altpedal_OffScreen_neoPixelEffectColor,
+
+        // A button
+        abutton_OnScreen_neoPixelEffect,
+        abutton_OnScreen_neoPixelEffectColor,
+        abutton_OffScreen_neoPixelEffect,
+        abutton_OffScreen_neoPixelEffectColor,
+
+        // B button
+        bbutton_OnScreen_neoPixelEffect,
+        bbutton_OnScreen_neoPixelEffectColor,
+        bbutton_OffScreen_neoPixelEffect,
+        bbutton_OffScreen_neoPixelEffectColor,
+
+        // C button
+        cbutton_OnScreen_neoPixelEffect,
+        cbutton_OnScreen_neoPixelEffectColor,
+        cbutton_OffScreen_neoPixelEffect,
+        cbutton_OffScreen_neoPixelEffectColor,
+
+        // Start
+        start_OnScreen_neoPixelEffect,
+        start_OnScreen_neoPixelEffectColor,
+        start_OffScreen_neoPixelEffect,
+        start_OffScreen_neoPixelEffectColor,
+
+        // Select
+        select_OnScreen_neoPixelEffect,
+        select_OnScreen_neoPixelEffectColor,
+        select_OffScreen_neoPixelEffect,
+        select_OffScreen_neoPixelEffectColor,
+
         settingsTypesCount
     } settingsTypes_e;
 
@@ -254,6 +308,51 @@ public:
         {"EffectsStartLed",     effectsStartLed     },
         {"EffectsLedCount",     effectsLedCount     },
         {"CounterStartupMessage", counterStartupMessage},
+
+        {"Trigger_OnScreen_NeoPixelEffect",      trigger_OnScreen_neoPixelEffect},
+        {"Trigger_OnScreen_NeoPixelEffectColor", trigger_OnScreen_neoPixelEffectColor},
+        {"Trigger_OffScreen_NeoPixelEffect",     trigger_OffScreen_neoPixelEffect},
+        {"Trigger_OffScreen_NeoPixelEffectColor",trigger_OffScreen_neoPixelEffectColor},
+    
+        {"Pump_OnScreen_NeoPixelEffect",         pump_OnScreen_neoPixelEffect},
+        {"Pump_OnScreen_NeoPixelEffectColor",    pump_OnScreen_neoPixelEffectColor},
+        {"Pump_OffScreen_NeoPixelEffect",        pump_OffScreen_neoPixelEffect},
+        {"Pump_OffScreen_NeoPixelEffectColor",   pump_OffScreen_neoPixelEffectColor},
+
+        {"Pedal_OnScreen_NeoPixelEffect",      pedal_OnScreen_neoPixelEffect},
+        {"Pedal_OnScreen_NeoPixelEffectColor", pedal_OnScreen_neoPixelEffectColor},
+        {"Pedal_OffScreen_NeoPixelEffect",     pedal_OffScreen_neoPixelEffect},
+        {"Pedal_OffScreen_NeoPixelEffectColor",pedal_OffScreen_neoPixelEffectColor},
+
+        {"AltPedal_OnScreen_NeoPixelEffect",      altpedal_OnScreen_neoPixelEffect},
+        {"AltPedal_OnScreen_NeoPixelEffectColor", altpedal_OnScreen_neoPixelEffectColor},
+        {"AltPedal_OffScreen_NeoPixelEffect",     altpedal_OffScreen_neoPixelEffect},
+        {"AltPedal_OffScreen_NeoPixelEffectColor",altpedal_OffScreen_neoPixelEffectColor},
+    
+        {"AButton_OnScreen_NeoPixelEffect",         abutton_OnScreen_neoPixelEffect},
+        {"AButton_OnScreen_NeoPixelEffectColor",    abutton_OnScreen_neoPixelEffectColor},
+        {"AButton_OffScreen_NeoPixelEffect",        abutton_OffScreen_neoPixelEffect},
+        {"AButton_OffScreen_NeoPixelEffectColor",   abutton_OffScreen_neoPixelEffectColor},
+    
+        {"BButton_OnScreen_NeoPixelEffect",         bbutton_OnScreen_neoPixelEffect},
+        {"BButton_OnScreen_NeoPixelEffectColor",    bbutton_OnScreen_neoPixelEffectColor},
+        {"BButton_OffScreen_NeoPixelEffect",        bbutton_OffScreen_neoPixelEffect},
+        {"BButton_OffScreen_NeoPixelEffectColor",   bbutton_OffScreen_neoPixelEffectColor},
+    
+        {"CButton_OnScreen_NeoPixelEffect",         cbutton_OnScreen_neoPixelEffect},
+        {"CButton_OnScreen_NeoPixelEffectColor",    cbutton_OnScreen_neoPixelEffectColor},
+        {"CButton_OffScreen_NeoPixelEffect",        cbutton_OffScreen_neoPixelEffect},
+        {"CButton_OffScreen_NeoPixelEffectColor",   cbutton_OffScreen_neoPixelEffectColor},
+    
+        {"Start_OnScreen_NeoPixelEffect",         start_OnScreen_neoPixelEffect},
+        {"Start_OnScreen_NeoPixelEffectColor",    start_OnScreen_neoPixelEffectColor},
+        {"Start_OffScreen_NeoPixelEffect",        start_OffScreen_neoPixelEffect},
+        {"Start_OffScreen_NeoPixelEffectColor",   start_OffScreen_neoPixelEffectColor},
+    
+        {"Select_OnScreen_NeoPixelEffect",         select_OnScreen_neoPixelEffect},
+        {"Select_OnScreen_NeoPixelEffectColor",    select_OnScreen_neoPixelEffectColor},
+        {"Select_OffScreen_NeoPixelEffect",        select_OffScreen_neoPixelEffect},
+        {"Select_OffScreen_NeoPixelEffectColor",   select_OffScreen_neoPixelEffectColor},
     };
 
     enum {
