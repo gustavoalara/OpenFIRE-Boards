@@ -296,7 +296,7 @@ public:
         {"TempWarning",         tempWarning         },
         {"TempDanger",          tempShutdown        },
         {"AnalogMode",          analogMode          },
-        {"CounterMode",        counterType          },
+        {"CounterType",        counterType          },
         {"NeoPixelLifeFull",    neoPixelLifeFull    },
         {"NeoPixelLifeEmpty",   neoPixelLifeEmpty   },
         {"NeoPixelAmmoFull",    neoPixelAmmoFull    },
