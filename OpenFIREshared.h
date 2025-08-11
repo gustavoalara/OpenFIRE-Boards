@@ -222,6 +222,8 @@ public:
         ammoBarLedCount,
         effectsStartLed,
         effectsLedCount,
+        statusStartLed, 
+        statusLedCount,
         counterStartupMessage,
 
         // Trigger
