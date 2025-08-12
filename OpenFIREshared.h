@@ -309,6 +309,8 @@ public:
         {"AmmoBarLedCount",     ammoBarLedCount     },
         {"EffectsStartLed",     effectsStartLed     },
         {"EffectsLedCount",     effectsLedCount     },
+        {"StatusStartLed",       statusStartLed     },
+        {"StatusLedCount",       statusLedCount     },
         {"CounterStartupMessage", counterStartupMessage},
 
         {"TriggerOnEffect",      btnTriggerOnEffect},
