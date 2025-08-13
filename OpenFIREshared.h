@@ -142,9 +142,9 @@ public:
         {"Analog Stick Y",      analogY         },
         {"Temperature Sensor",  tempPin         },
         // Counter Pins
-        {"7-segment Counter SDI",         counterSdiPin},
-        {"7-segment CounterCounter SCLK",        counterSclkPin},
-        {"7-segment CounterCounter Load",        counterLoadPin},
+        {"7-Segment Counter SDI",         counterSdiPin},
+        {"7-Segment Counter SCLK",        counterSclkPin},
+        {"7-Segment Counter Load",        counterLoadPin},
     };
 
     // For Apps to use for lists of pin functions
