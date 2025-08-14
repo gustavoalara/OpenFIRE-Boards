@@ -176,6 +176,7 @@ public:
         i2cOLEDaltAddr,
         // Add here
         counterEnable,
+        shakingEnable,
 
         boolTypesCount
     } boolTypes_e;
@@ -194,6 +195,7 @@ public:
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
         {"CounterEnabled",      counterEnable       },
+        {"shakingEnable",       shakingEnable       }
     };
 
     // Variable settings indices
@@ -282,6 +284,11 @@ public:
         btnSelectOffEffect,
         btnSelectOffColor,
 
+        //Shaking
+        shakingThreshold,
+        shakingTimeframe,
+        shakingCount,
+
         settingsTypesCount
     } settingsTypes_e;
 
@@ -359,6 +366,11 @@ public:
         {"SelectOnColor",          btnSelectOnColor},
         {"SelectOffEffect",        btnSelectOffEffect},
         {"SelectOffColor",         btnSelectOffColor},
+
+
+        {"shakingThreshold",       shakingThreshold},
+        {"shakingTimeframe",       shakingTimeframe},
+        {"shakingCount",           shakingCount}
     };
 
     enum {
