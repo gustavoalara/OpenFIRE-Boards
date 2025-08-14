@@ -79,6 +79,7 @@ public:
         btnPedal2,
         btnPump,
         btnHome,
+        btnShaking,
         // ^ btn inputs
         rumblePin,
         solenoidPin,
@@ -124,6 +125,7 @@ public:
         {"Alt Pedal",           btnPedal2       },
         {"Pump Action",         btnPump         },
         {"Home Button",         btnHome         },
+        {"Shaking Action",      btnShaking      },
         {"Rumble Signal",       rumblePin       },
         {"Solenoid Signal",     solenoidPin     },
         {"Rumble Switch",       rumbleSwitch    },
