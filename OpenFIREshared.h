@@ -225,6 +225,7 @@ public:
         statusStartLed, 
         statusLedCount,
         counterStartupMessage,
+        counterSpiBus,
 
         // Trigger
         btnTriggerOnEffect,
@@ -312,6 +313,7 @@ public:
         {"StatusStartLed",       statusStartLed     },
         {"StatusLedCount",       statusLedCount     },
         {"CounterStartupMessage", counterStartupMessage},
+        {"CounterSPIBus",    CounterSpiBus},
 
         {"TriggerOnEffect",      btnTriggerOnEffect},
         {"TriggerOnColor",       btnTriggerOnColor},
