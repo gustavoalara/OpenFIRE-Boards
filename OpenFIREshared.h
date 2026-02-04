@@ -313,7 +313,7 @@ public:
         {"StatusStartLed",       statusStartLed     },
         {"StatusLedCount",       statusLedCount     },
         {"CounterStartupMessage", counterStartupMessage},
-        {"CounterSPIBus",    CounterSpiBus},
+        {"CounterSPIBus",    counterSpiBus},
 
         {"TriggerOnEffect",      btnTriggerOnEffect},
         {"TriggerOnColor",       btnTriggerOnColor},
