@@ -102,7 +102,15 @@ public:
         counterSdiPin,
         counterSclkPin,
         counterLoadPin,
-        
+
+        // ST7789 TFT (SPI) pins
+        tftMosiPin,
+        tftSclkPin,
+        tftCsPin,
+        tftDcPin,
+        tftRstPin,
+        tftBlPin,
+
         boardInputsCount
     } boardInputs_e;
 
@@ -145,6 +153,12 @@ public:
         {"7-Segment Counter SDI",         counterSdiPin},
         {"7-Segment Counter SCLK",        counterSclkPin},
         {"7-Segment Counter Load",        counterLoadPin},
+        {"TFT MOSI (ST7789)",          tftMosiPin},
+        {"TFT SCLK (ST7789)",          tftSclkPin},
+        {"TFT CS (ST7789)",            tftCsPin},
+        {"TFT DC (ST7789)",            tftDcPin},
+        {"TFT RST (ST7789)",           tftRstPin},
+        {"TFT Backlight (ST7789)",     tftBlPin},
     };
 
     // For Apps to use for lists of pin functions
