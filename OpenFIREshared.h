@@ -240,6 +240,7 @@ public:
         statusLedCount,
         counterStartupMessage,
         counterSpiBus,
+        tftSpiBus,
 
         // Trigger
         btnTriggerOnEffect,
@@ -328,6 +329,7 @@ public:
         {"StatusLedCount",       statusLedCount     },
         {"CounterStartupMessage", counterStartupMessage},
         {"CounterSPIBus",    counterSpiBus},
+        {"TFTSPIBus",    tftSpiBus},
 
         {"TriggerOnEffect",      btnTriggerOnEffect},
         {"TriggerOnColor",       btnTriggerOnColor},
