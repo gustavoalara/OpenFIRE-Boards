@@ -188,6 +188,7 @@ public:
         i2cOLEDaltAddr,
         // Add here
         counterEnable,
+        tftEnable,
 
         boolTypesCount
     } boolTypes_e;
@@ -206,6 +207,7 @@ public:
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
         {"CounterEnabled",      counterEnable       },
+        {"TFTEnabled",          tftEnable       },
     };
 
     // Variable settings indices
