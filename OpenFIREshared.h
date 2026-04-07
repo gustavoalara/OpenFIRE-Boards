@@ -189,6 +189,9 @@ public:
         // Add here
         counterEnable,
         tftEnable,
+        tftHudEnable,
+
+boolTypesCount
 
         boolTypesCount
     } boolTypes_e;
@@ -206,8 +209,9 @@ public:
         {"InvertStaticPixels",  invertStaticPixels  },
         {"I2COLEDEnabled",      i2cOLED             },
         {"I2COLEDAltAddr",      i2cOLEDaltAddr      },
-        {"CounterEnabled",      counterEnable       },
-        {"TFTEnabled",          tftEnable       },
+        {"CounterEnabled",      counterEnable },
+        {"TFTEnabled",          tftEnable     },
+        {"TFTHudEnabled",       tftHudEnable  },
     };
 
     // Variable settings indices
