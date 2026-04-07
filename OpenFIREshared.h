@@ -191,8 +191,6 @@ public:
         tftEnable,
         tftHudEnable,
 
-boolTypesCount
-
         boolTypesCount
     } boolTypes_e;
 
